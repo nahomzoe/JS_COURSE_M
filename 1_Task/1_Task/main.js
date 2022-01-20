@@ -1,1 +1,1 @@
-alert("Welcome to learn JS");
+alert("I want go to git hub");
