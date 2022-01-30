@@ -37,7 +37,7 @@ for (let i = 0; i < 4; i++) {
   }
 }
 console.log(`${max} ${maxMax}`);*/
-let max = 0;
+/*let max = 0;
 let secondMax = 0;
 for (let i = 0; i < 4; i++) {
   let num = Number(prompt("Enter 10 numbers"));
@@ -50,7 +50,7 @@ for (let i = 0; i < 4; i++) {
     max = num;
   }
 }
-console.log(`${max} ${secondMax}`);
+console.log(`${max} ${secondMax}`);*/
 
 // the next one works perfectly
 /*let arr = [];
@@ -61,3 +61,16 @@ for (let i = 0; i < 10; i++) {
   let arrMin = arr.sort((a, b) => a - b);
   console.log(`${arrMin[0]} ${arrMin[1]}`);
 }*/
+let max = 0;
+let secondMax = 0;
+for (let i = 0; i < 4; i++) {
+  let num = Number(prompt("Enter 10 numbers"));
+
+  if (num > max) {
+    max = num;
+  }
+  if (num > secondMax && num < max) {
+    secondMax = num;
+  }
+}
+console.log(`${max} ${secondMax}`);
