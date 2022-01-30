@@ -1,15 +1,3 @@
-let arr = [];
-
-for (let i = 0; i < 10; i++) {
-  let num = Number(prompt("Enter 10 numbers"));
-  arr.push(num);
-}
-let arrMin = [Math.min(...arr)];
-let arrWithoutMin = arr.slice(arrMin);
-let minOfarrWithoutMin = [Math.min(...arrWithoutMin)];
-let arrSecondbestMin = arrMin.concat(minOfarrWithoutMin);
-console.log(arrSecondbestMin);
-
 /*let arr = [];
 
 for (let i = 0; i < 10; i++) {
@@ -24,6 +12,45 @@ for (let i = 0; i < 10; i++) {
   }
   console.log(arrMin);
 }*/
+/*let max = 0;
+for (let i = 0; i < 4; i++) {
+  let num = Number(prompt("Enter 10 numbers"));
+
+  if (num > max) {
+    max = num;
+  } else {
+    console.log(max);
+  }
+}*/
+// works for 2 max numbers
+/*let max = 0;
+let maxMax = 0;
+for (let i = 0; i < 4; i++) {
+  let num = Number(prompt("Enter 10 numbers"));
+
+  if (num > max) {
+    maxMax = max;
+    max = num;
+  }
+  if (num > maxMax && num < max) {
+    max = num;
+  }
+}
+console.log(`${max} ${maxMax}`);*/
+let max = 0;
+let secondMax = 0;
+for (let i = 0; i < 4; i++) {
+  let num = Number(prompt("Enter 10 numbers"));
+
+  if (num > max) {
+    secondMax = max;
+    max = num;
+  }
+  if (num > secondMax && num < max) {
+    max = num;
+  }
+}
+console.log(`${max} ${secondMax}`);
 
 // the next one works perfectly
 /*let arr = [];
