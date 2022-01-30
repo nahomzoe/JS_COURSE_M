@@ -67,6 +67,7 @@ for (let i = 0; i < 4; i++) {
   let num = Number(prompt("Enter 10 numbers"));
 
   if (num > max) {
+    secondMax = max;
     max = num;
   }
   if (num > secondMax && num < max) {
