@@ -61,7 +61,7 @@ for (let i = 0; i < 10; i++) {
   let arrMin = arr.sort((a, b) => a - b);
   console.log(`${arrMin[0]} ${arrMin[1]}`);
 }*/
-let max = 0;
+let max = Infinity;
 let secondMax = 0;
 for (let i = 0; i < 4; i++) {
   let num = Number(prompt("Enter 10 numbers"));
