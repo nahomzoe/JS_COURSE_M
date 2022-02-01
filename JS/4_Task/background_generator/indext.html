@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Background Generator</title>
+  </head>
+  <body>
+    <h1>BG Gradient Generator</h1>
+    <form action="">
+      <input class="color1" name="color1" type="color" value="#FF0000" />
+      <input class="color2" name="color2" type="color" value="#FF700" />
+
+      <h2>Direction</h2>
+      <div>
+        <label for="bottom"> To bottom</label>
+        <input
+          type="radio"
+          value="to bottom"
+          name="direction"
+          id="bottom"
+          checked
+        />
+
+        <label for="top"> To bottom</label>
+        <input type="radio" value="to top" name="direction" id="top" />
+
+        <label for="left"> To bottom</label>
+        <input type="radio" value="to left" name="direction" id="left" />
+
+        <label for="right"> To bottom</label>
+        <input type="radio" value="to right" name="direction" id="right" />
+      </div>
+    </form>
+
+    <script src="main.js"></script>
+  </body>
+</html>

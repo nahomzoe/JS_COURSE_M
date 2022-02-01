@@ -1,0 +1,6 @@
+body {
+  background-image: linear-gradient(rgb(85, 85, 103), white);
+  background-repeat: no-repeat;
+  height: 100vh;
+  font-family: "PT Sans", sans-serif;
+}
