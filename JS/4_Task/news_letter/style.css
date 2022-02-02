@@ -1,0 +1,16 @@
+body {
+  background-color: green;
+}
+.container {
+  width: 300px;
+  height: 500px;
+  margin: auto;
+  background-color: white;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 200;
+}
+
+.container {
+  margin: auto;
+}
