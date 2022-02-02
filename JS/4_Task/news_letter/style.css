@@ -1,16 +1,53 @@
 body {
-  background-color: green;
+  background-color: #236846;
 }
 .container {
   width: 300px;
-  height: 500px;
+  height: 580px;
   margin: auto;
   background-color: white;
   font-family: "Nunito Sans", sans-serif;
   font-size: 15px;
   font-weight: 200;
+  border-radius: 5px;
+  padding: auto;
 }
 
 .container {
   margin: auto;
+}
+.center {
+  text-align: center;
+  padding-top: 5px;
+}
+
+.form-field {
+  margin: 0px 0px 10px 20px;
+}
+.form-field input {
+  width: 85%;
+  font-size: 17px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 7px;
+}
+
+#submit {
+  border-radius: 5px;
+  width: 70%;
+  padding: 7px;
+  border: 1px solid #ff7f4f;
+  background-color: #ff7f4f;
+  color: #fff;
+}
+
+label {
+  font-size: 80%;
+}
+
+.itsfree {
+  font-size: 110%;
+}
+.myclick {
+  font-size: 75%;
 }
