@@ -1,9 +1,11 @@
 body {
   background-color: #236846;
 }
+
 .container {
-  width: 300px;
+  width: 305px;
   height: 580px;
+
   margin: auto;
   background-color: white;
   font-family: "Nunito Sans", sans-serif;
@@ -26,19 +28,21 @@ body {
 }
 .form-field input {
   width: 85%;
-  font-size: 17px;
+  font-size: 15px;
   border-radius: 5px;
   border: 1px solid #ccc;
-  padding: 7px;
+  padding: 6px;
 }
 
 #submit {
+  margin-top: 4%;
   border-radius: 5px;
-  width: 70%;
+  width: 65%;
   padding: 7px;
   border: 1px solid #ff7f4f;
   background-color: #ff7f4f;
   color: #fff;
+  font-size: 12px;
 }
 
 label {
@@ -49,10 +53,13 @@ label {
   font-size: 110%;
 }
 .myclick {
-  font-size: 75%;
+  font-size: 85%;
 }
 
 .login {
   font-family: "Nunito Sans", sans-serif;
   color: white;
+}
+a {
+  color: #ff7f4f;
 }
