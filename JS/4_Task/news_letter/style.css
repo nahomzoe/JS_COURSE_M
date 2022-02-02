@@ -51,3 +51,8 @@ label {
 .myclick {
   font-size: 75%;
 }
+
+.login {
+  font-family: "Nunito Sans", sans-serif;
+  color: white;
+}
