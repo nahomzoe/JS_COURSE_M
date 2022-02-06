@@ -1,0 +1,95 @@
+* {
+  font-family: "Raleway", sans-serif;
+  font-style: black;
+  /*font-family: "Italiana", serif;*/
+}
+body {
+  background-color: rgb(230, 224, 224);
+  align-items: center;
+}
+.container {
+  background-color: lavenderblush;
+
+  margin: auto;
+
+  padding: 50px;
+
+  width: 700px;
+  height: 1100px;
+}
+h3 {
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+header * {
+  display: inline-block;
+}
+
+header li {
+  margin: 20px;
+}
+a {
+  color: rgb(117, 117, 129);
+  text-decoration: none;
+}
+p {
+  font-size: 13px;
+  font-weight: lighter;
+}
+picture * {
+  float: initial;
+  width: 200px;
+  height: 100px;
+  padding: 20px 10px 10px 0px;
+}
+picture img {
+  float: left;
+}
+h4 {
+  margin-top: 100px;
+  margin-left: 353px;
+  font-size: 16px;
+  font-weight: 250;
+}
+
+.form-field {
+  padding-left: 100px;
+}
+
+label {
+  font-size: 13px;
+  font-weight: lighter;
+}
+
+.form-field input {
+  width: 50%;
+  border-radius: 5px;
+  background: top;
+  font-size: 12px;
+  font-weight: 300;
+  font-style: black;
+  border: 1px solid rgb(15, 15, 15);
+}
+
+.name {
+  margin: 5px 0px 5px 73px;
+  padding-bottom: 5px;
+}
+
+.email {
+  margin: 5px 0px 5px 75px;
+  padding-bottom: 5px;
+}
+.messagee {
+  margin: 5px 0px 5px 46px;
+  padding-bottom: 60px;
+}
+
+.submit {
+  margin-left: 315px;
+
+  padding: 8px 60px 8px 60px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
