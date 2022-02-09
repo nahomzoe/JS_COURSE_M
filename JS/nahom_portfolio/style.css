@@ -1,21 +1,30 @@
-* {
+/*#9AB0BF
+#2A2A2A
+#E3CFCD
+#2A2A2A*/
+*** {
   font-family: "Raleway", sans-serif;
-  font-style: black;
+  font-style: rgb(241, 236, 236);
   /*font-family: "Italiana", serif;*/
 }
 body {
-  background-color: rgb(230, 224, 224);
+  background-color: #202131;
   align-items: center;
 }
 .container {
-  background-color: lavenderblush;
-
+  background-color: #202131;
   margin: auto;
 
   padding: 50px;
 
   width: 700px;
   height: 1100px;
+}
+header {
+  background-color: #9ab0bf;
+  margin: auto;
+  width: 800px;
+  height: 180px;
 }
 h3 {
   font-size: 16px;

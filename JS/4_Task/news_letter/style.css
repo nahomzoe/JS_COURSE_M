@@ -1,3 +1,4 @@
+/*font-family: 'Raleway', sans-serif;*/
 body {
   background-color: #236846;
 }
@@ -62,4 +63,5 @@ label {
 }
 a {
   color: #ff7f4f;
+  text-decoration: none;
 }
