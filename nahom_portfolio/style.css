@@ -17,35 +17,52 @@ body {
   width: 700px;
   height: 1100px;
 }
-h3 {
-  font-size: 16px;
-  font-weight: lighter;
-}
-
 header * {
   display: inline-block;
+}
+#header-two {
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-image: linear-gradient(rgb(34, 20, 28), white);
 }
 
 header li {
   margin: 20px;
 }
+
 a {
   color: rgb(117, 117, 129);
   text-decoration: none;
 }
+
+label {
+  font-size: 13px;
+  font-weight: lighter;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: lighter;
+}
+
 p {
   font-size: 13px;
   font-weight: lighter;
 }
+
 picture * {
   float: initial;
   width: 200px;
   height: 100px;
   padding: 20px 10px 10px 0px;
 }
+
 picture img {
   float: left;
 }
+
 h4 {
   margin-top: 100px;
   margin-left: 353px;
@@ -55,11 +72,6 @@ h4 {
 
 .form-field {
   padding-left: 100px;
-}
-
-label {
-  font-size: 13px;
-  font-weight: lighter;
 }
 
 .form-field input {
@@ -81,6 +93,7 @@ label {
   margin: 5px 0px 5px 75px;
   padding-bottom: 5px;
 }
+
 .messagee {
   margin: 5px 0px 5px 46px;
   padding-bottom: 60px;
