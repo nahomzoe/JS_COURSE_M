@@ -1,0 +1,51 @@
+body {
+  background-color: lightblue;
+}
+h1::after {
+  content: "Hey";
+}
+/**/
+/*small*/
+@media (min-width: 576px) {
+  body {
+    background-color: lightblue;
+  }
+  h1::after {
+    content: "Hey";
+  }
+}
+/*a bit bigger*/
+@media (min-width: 768px) {
+  body {
+    background-color: rgb(48, 171, 211);
+  }
+  h1::after {
+    content: "Hey";
+  }
+}
+/*medium*/
+@media (min-width: 992px) {
+  body {
+    background-color: rgb(20, 22, 22);
+  }
+  h1::after {
+    content: "Mobile 991-1199";
+  }
+}
+/*large desk top*/
+@media (min-width: 1200px) {
+  body {
+    background-color: rgb(20, 22, 22);
+  }
+  h1::after {
+    content: "Mobile 1200 and up";
+  }
+}
+
+/*
+576px
+768px
+992px
+1200px
+
+*/

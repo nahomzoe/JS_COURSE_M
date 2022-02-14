@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: lightsalmon;
+  font-style: white;
+}
+header {
+  background-color: rgb(225, 229, 233);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+}
+nav ul li {
+  display: inline-block;
+}
+a {
+  color: rgb(34, 28, 28);
+  text-decoration: none;
+}
+main {
+  background-color: yellow;
+ 
+  display: flex;
+}
+.left {
+  background-color: white;
+  flex: 1;
+}
+.right {
+  background-color: yellowgreen;
+  flex: 4;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+}
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: tomato;
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  

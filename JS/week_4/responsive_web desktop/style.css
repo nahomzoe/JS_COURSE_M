@@ -1,0 +1,48 @@
+body {
+  background-color: rgb(18, 56, 92);
+}
+h1::after {
+  content: "This is up to 1200px";
+}
+/*Media Queries*/
+/*large devices (large desktops, up to 1200px)*/
+@media (max-width: 992px) {
+  body {
+    background-color: rgb(157, 165, 173);
+  }
+
+  h1::after {
+    content: "This is up to 992px";
+  }
+}
+
+/*large devices (large desktops, up to 1200px)*/
+@media (max-width: 768px) {
+  body {
+    background-color: rgb(182, 30, 55);
+  }
+
+  h1::after {
+    content: "This is up to 768px";
+  }
+}
+
+/*large devices (large desktops, up to 1200px)*/
+@media (max-width: 576px) {
+  body {
+    background-color: rgb(175, 209, 21);
+  }
+
+  h1::after {
+    content: "This is up to 576px";
+  }
+}
+main {
+  background-color: yellow;
+}
+.left {
+  background-color: white;
+}
+.right {
+  background-color: yellowgreen;
+}
