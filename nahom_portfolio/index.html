@@ -10,13 +10,17 @@
       href="https://fonts.googleapis.com/css2?family=Italiana&family=Raleway:wght@100;200;300;400&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Italiana&family=Raleway:wght@100;200;300;400&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
-    <title>Nahom's Portfolio</title>
+    <title>Nahom's Portofolio</title>
   </head>
   <body>
     <div class="container">
-      <header id="header-one">
-        <h2>Nahom G.Asfaw</h2>
+      <header>
+        <h2 class="name-top">Nahom G.Asfaw</h2>
         <nav>
           <ul>
             <li><a href="#about-me">About me</a></li>
@@ -26,64 +30,68 @@
             <li><a href="#contactme">Contact me</a></li>
           </ul>
         </nav>
-
-        <div class="hero">
+        <section class="hero">
           <h1>Welcome to my Portfolio</h1>
-        </div>
+        </section>
       </header>
 
       <main>
-        <h3>About me</h3>
-        <picture>
-          <source srcset="aboutme.jpg" media="" />
-          <img src="#" />
-        </picture>
-        <p id="about-me">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo tempora
-          minus magni natus dolor, eum excepturi hic ratione ullam? Culpa
-          aliquid voluptates molestias, officiis quibusdam deleniti. Alias est
-          non optio! Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-          Voluptates obcaecati in iusto ut eaque illum delectus ducimus facere,
-          ad nisi qui rerum hic? Pariatur, tempore sunt totam facere quibusdam
-          reiciendis!
-        </p>
-        <br />
-        <br />
+        <section class="about-me">
+          <h2>About me</h2>
+          <picture>
+            <source srcset="aboutme.jpg" media="" />
+            <img src="#" />
+          </picture>
+          <p id="about-me">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
+            tempora minus magni natus dolor, eum excepturi hic ratione ullam?
+            Culpa aliquid voluptates molestias, officiis quibusdam deleniti.
+            Alias est non optio! Lorem ipsum, dolor sit amet consectetur
+            adipisicing elit. Voluptates obcaecati in iusto ut eaque illum
+            delectus ducimus facere, ad nisi qui rerum hic? Pariatur, tempore
+            sunt totam facere quibusdam reiciendis!
+          </p>
+        </section>
 
-        <h3>Works</h3>
-        <picture>
-          <source srcset="work.jpeg" media="" />
-          <img src="#" />
-        </picture>
-        <p id="works">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo tempora
-          minus magni natus dolor, eum excepturi hic ratione ullam? Culpa
-          aliquid voluptates molestias, officiis quibusdam deleniti. Alias est
-          non optio! Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-          Voluptates obcaecati in iusto ut eaque illum delectus ducimus facere,
-          ad nisi qui rerum hic? Pariatur, tempore sunt totam facere quibusdam
-          reiciendis!
-        </p>
-        <br />
-        <br />
-        <h3>Skills</h3>
+        <section class="works">
+          <h2>Works</h2>
+          <picture>
+            <source srcset="work.jpeg" media="" />
+            <img src="#" />
+          </picture>
+          <p id="works">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
+            tempora minus magni natus dolor, eum excepturi hic ratione ullam?
+            Culpa aliquid voluptates molestias, officiis quibusdam deleniti.
+            Alias est non optio! Lorem ipsum, dolor sit amet consectetur
+            adipisicing elit. Voluptates obcaecati in iusto ut eaque illum
+            delectus ducimus facere, ad nisi qui rerum hic? Pariatur, tempore
+            sunt totam facere quibusdam reiciendis!
+          </p>
+        </section>
 
-        <picture>
-          <source srcset="skill.jpeg" media="" />
-          <img src="#" />
-        </picture>
-        <!--<p id="skills">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo tempora
-          minus magni natus dolor, eum excepturi hic ratione ullam? Culpa
-          aliquid voluptates molestias, officiis quibusdam deleniti. Alias est
-          non optio! Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-          Voluptates obcaecati in iusto ut eaque illum delectus ducimus facere,
-          ad nisi qui rerum hic? Pariatur, tempore sunt totam facere quibusdam
-          reiciendis!
-        </p> -->
+        <section class="skills">
+          <h2>Skills</h2>
+
+          <picture>
+            <source srcset="skill.jpeg" media="" />
+            <img src="#" />
+          </picture>
+          <!--<p id="skills">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo tempora
+            minus magni natus dolor, eum excepturi hic ratione ullam? Culpa
+            aliquid voluptates molestias, officiis quibusdam deleniti. Alias est
+            non optio! Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Voluptates obcaecati in iusto ut eaque illum delectus ducimus facere,
+            ad nisi qui rerum hic? Pariatur, tempore sunt totam facere quibusdam
+            reiciendis!
+          </p> -->
+        </section>
       </main>
       <footer>
-        <h4 id="contactme">Contact me</h4>
+        <div>
+          <h4 id="contactme">Contact me</h4>
+        </div>
 
         <form>
           <div class="form-field">
@@ -96,7 +104,7 @@
           </div>
           <div class="form-field">
             <label id="message">Message to me</label>
-            <input type="text" class="messagee" />
+            <input type="text" class="message" />
           </div>
           <input type="submit" class="submit" value="SEND" />
         </form>
