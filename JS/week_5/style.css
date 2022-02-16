@@ -1,0 +1,103 @@
+body {
+  background-color: rgba(255, 255, 0, 0.561);
+  color: green;
+}
+a {
+  color: rgb(43, 165, 49);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: gray;
+  text-decoration: underline;
+}
+a:visited {
+  color: tomato;
+}
+h1:hover {
+  color: white;
+  text-decoration: underline;
+  cursor: help;
+}
+.box {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(221, 174, 166);
+  margin: 1rem;
+}
+
+.box:hover {
+  border-radius: 50%;
+  background-color: wheat;
+}
+p:nth-child(4) {
+  color: violet;
+}
+
+p:nth-child(odd) {
+  color: blue;
+  text-decoration: overline;
+}
+p:nth-child(even) {
+  color: rgb(35, 223, 213);
+}
+p:nth-child(2n + 4) {
+  color: red;
+}
+h1::before {
+  content: "";
+  height: 20px;
+  width: 20px;
+  background-color: tomato;
+  display: block;
+  border-radius: 50%;
+}
+h1::after {
+  content: "";
+  content: "";
+  height: 20px;
+  width: 20px;
+  background-color: tomato;
+  display: block;
+  border-radius: 50%;
+}
+.absolute {
+  position: absolute;
+  background-color: blue;
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 300px;
+}
+.sticky {
+  position: sticky;
+  top: 200px;
+}
+.relative {
+  position: relative;
+  top: 200px;
+}
+.modal {
+  height: 50vw;
+  width: 50vw;
+  background-color: rad;
+  border-radius: 5px;
+  position: absolute;
+  top: 25vw;
+  left: 25vw;
+}
+.close {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.modal button {
+  position: absolute;
+  bottom: 20px;
+  left: 25%;
+}
