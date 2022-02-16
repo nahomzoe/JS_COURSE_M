@@ -1,5 +1,6 @@
 * {
   font-family: "Raleway", sans-serif;
+  color: black;
 
   /*font-family: "Italiana", serif;
   font-family: 'Comfortaa', cursive;
@@ -45,6 +46,9 @@ nav {
   padding-top: 100px;
   padding-bottom: 150px;
 }
+img {
+  height: 200px;
+}
 
 header li {
   margin: 10px;
@@ -53,6 +57,7 @@ header li {
 a {
   color: rgb(117, 117, 129);
   text-decoration: none;
+  color: black;
 }
 
 label {
@@ -65,19 +70,38 @@ h1 {
   font-size: 70px;
   display: flex;
 }
+.projects {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.box {
+  height: 350px;
+  width: 370px;
+  border-color: black;
+  border: solid;
+  display: inline-block;
+  border-radius: 3px;
+}
+.box:hover {
+  height: 370px;
+  width: 390px;
+  border-color: rgb(247, 244, 244);
+  border: solid;
+  display: inline-block;
+  border-radius: 0px;
+}
 
 section {
   margin-top: 0px;
-  height: 248px;
+
+  height: 400px;
 }
 .about-me {
-  background-color: #b3d398;
+  background-color: rgb(239, 230, 230);
   border-radius: 5px;
 }
-.works {
-  background-color: #4d7ca8;
-  border-radius: 5px;
-}
+
 .skills {
   background-color: #9b5871;
   border-radius: 5px;
@@ -112,7 +136,6 @@ h4 {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 10px;
 }
 
 .form-field input {
@@ -143,10 +166,16 @@ h4 {
 .submit {
   padding: 12px 80px 12px 80px;
   border-radius: 10px;
-  border: 1px solid black;
+  border: 1px solid rgb(173, 117, 20);
+  background-color: rgb(173, 117, 20);
   margin-left: 400px;
 }
 footer {
   background-color: rgb(194, 187, 187);
   height: 450px;
+}
+.copy-right {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
 }
