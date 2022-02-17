@@ -13,13 +13,15 @@ section,
 footer {
   padding: 2rem;
 }
+header a {
+}
 a {
   color: white;
   text-decoration: none;
   padding: 1rem;
 }
 a:hover {
-  background-color: dark rgb(119, 128, 119);
+  background-color: dark rgb(20, 238, 20);
 }
 
 header {
@@ -34,6 +36,11 @@ header {
 nav ul li {
   display: inline-block;
 }
+
+nav ul li:hover {
+  background-color: rgb(88, 81, 81);
+}
+
 section {
   min-height: 50vh;
   scroll-margin-top: 5rem;
@@ -53,4 +60,54 @@ section:last-child {
 #section2,
 #section3 {
   height: 50vh;
+}
+
+.bg {
+  background-color: white;
+}
+.bg a {
+  color: #333;
+}
+
+#backToTop {
+  background-color: orange;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  font-family: inherit;
+  cursor: pointer;
+  color: white;
+  display: none;
+}
+.material-icons {
+  font-size: 1rem;
+}
+#backToTop .material-icons {
+  font-size: 1rem;
+}
+@media (max-width: 576px) {
+  #mobileButton {
+    display: block;
+  }
+  nav ul {
+    display: none;
+  }
+  nav.responsive ul {
+    background-color: white;
+    position: absolute;
+    left: 0;
+    top: 100px;
+    width: 100%;
+    display: block;
+  }
+  nav.responsive ul li {
+    display: block;
+  }
+  nav.responsive a {
+    color: #333;
+    display: block;
+  }
 }

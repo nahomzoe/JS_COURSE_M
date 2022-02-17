@@ -8,14 +8,20 @@
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="style.css" />
     <title>My demo</title>
   </head>
   <body>
     <header>
-      <div class="logo"><h1>Nahom</h1></div>
+      <div class="logo">
+        <h1><a href="#">Nahom</a></h1>
+      </div>
 
-      <nav>
+      <nav class="responsive">
+        <button id="mobileButton">
+          <span class="material-icons">menu</span>
+        </button>
         <ul>
           <li><a href="#first">First</a></li>
           <li><a href="#second">Second</a></li>
@@ -29,7 +35,12 @@
       <section id="second"><h2>Second</h2></section>
       <section id="third"><h2>Third</h2></section>
     </main>
-    <footer id="#contact">Copoyrights &copy 2022</footer>
+    <footer id="#contact">
+      <p>Copoyrights &copy 2022</p>
+      <button id="backToTop">
+        Top<span class="material-icons">arrow_upward</span>
+      </button>
+    </footer>
 
     <script src="main.js"></script>
   </body>
