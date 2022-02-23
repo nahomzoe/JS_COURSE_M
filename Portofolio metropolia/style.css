@@ -1,0 +1,397 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+body {
+  font: black;
+}
+
+header,
+main,
+footer {
+  padding: 2rem;
+}
+html {
+  scroll-behavior: smooth;
+}
+a {
+  text-decoration: none;
+}
+nav ul li {
+  display: inline-block;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  background-image: linear-gradient(#5585b5 10%, white 90%);
+  height: 30vh;
+  z-index: 50;
+  padding: 2rem;
+}
+li {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+a {
+  color: black;
+}
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(white 10%, #5585b5 100%);
+  font-family: "Zen Maru Gothic", sans-serif;
+  height: 50vh;
+  font-size: 2.5rem;
+}
+h2 {
+  margin: 2rem;
+}
+.project-cards {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0px;
+}
+
+.box {
+  border: solid black 1px;
+  height: 230px;
+  width: 340px;
+  border-radius: 3px;
+  padding: 1rem;
+  position: relative;
+}
+.box:hover {
+  border: solid black 1px;
+  height: 340px;
+  width: 340px;
+  border-radius: 3px;
+  padding: 1rem;
+}
+.img-card {
+  width: 300px;
+  height: 302px;
+  padding-top: 0px;
+  padding-bottom: 110px;
+  padding-left: 20px;
+  padding-right: 20px;
+  position: absolute;
+  top: 10;
+}
+.box-mini {
+  border: solid black 1px;
+  position: absolute;
+  bottom: -220px;
+  height: 20px;
+  width: 300;
+  z-index: 5;
+  position: relative;
+}
+#aboutMe {
+  height: 40vh;
+  padding: 2rem;
+  margin-top: 3rem;
+
+  background-color: #5585b5;
+}
+.img-aboutme {
+  float: right;
+}
+.img-skill {
+  float: left;
+}
+.img-paragraph {
+  width: 250px;
+  height: 200px;
+  margin: 2rem;
+  position: relative;
+  top: -100px;
+}
+.paragraph-main {
+  margin: 2rem;
+}
+#skill {
+  background-color: beige;
+  height: 40vh;
+  padding: 2rem;
+  margin-top: 3rem;
+}
+footer {
+  background-color: rgb(194, 187, 187);
+  height: 45vh;
+  margin-top: 2rem;
+  padding: 2rem;
+}
+#contact {
+  position: relative;
+
+  left: 41rem;
+  bottom: 2rem;
+}
+
+.form-field {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: -35px;
+}
+.form-field input {
+  width: 30%;
+  height: 1.5rem;
+  border-radius: 5px;
+  border: solid 0.5px black;
+}
+
+.name {
+  margin: 5px 0px 5px 73px;
+  padding-bottom: 5px;
+}
+
+.email {
+  margin: 5px 0px 5px 75px;
+  padding-bottom: 5px;
+}
+
+.message {
+  margin: 5px 0px 5px 46px;
+  padding-bottom: 60px;
+}
+
+.submit {
+  position: relative;
+  left: 41rem;
+  bottom: 1rem;
+  padding: 12px 80px 12px 80px;
+  border-radius: 10px;
+  border: 1px solid rgb(173, 117, 20);
+  background-color: rgb(173, 117, 20);
+}
+
+.copy-right {
+  position: relative;
+  left: 43rem;
+  top: 1.5rem;
+}
+
+#returnToTop {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  background-color: #5585b5;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+}
+
+@media (min-width: 576px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+  }
+  html,
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  body {
+    font: black;
+  }
+
+  header,
+  main,
+  footer {
+    padding: 2rem;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  a {
+    text-decoration: none;
+  }
+  nav ul li {
+    display: inline-block;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-image: linear-gradient(#5585b5 10%, white 90%);
+    height: 30vh;
+    z-index: 50;
+    padding: 2rem;
+  }
+  li {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+  a {
+    color: black;
+  }
+  .hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(white 10%, #5585b5 100%);
+    font-family: "Zen Maru Gothic", sans-serif;
+    height: 50vh;
+    font-size: 2.5rem;
+  }
+  h2 {
+    margin: 2rem;
+  }
+  .project-cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0px;
+  }
+
+  .box {
+    border: solid black 1px;
+    height: 230px;
+    width: 340px;
+    border-radius: 3px;
+    padding: 1rem;
+    position: relative;
+  }
+  .box:hover {
+    border: solid black 1px;
+    height: 340px;
+    width: 340px;
+    border-radius: 3px;
+    padding: 1rem;
+  }
+  .img-card {
+    width: 300px;
+    height: 302px;
+    padding-top: 0px;
+    padding-bottom: 110px;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: absolute;
+    top: 10;
+  }
+  .box-mini {
+    border: solid black 1px;
+    position: absolute;
+    bottom: -220px;
+    height: 20px;
+    width: 300;
+    z-index: 5;
+    position: relative;
+  }
+  #aboutMe {
+    height: 40vh;
+    padding: 2rem;
+    margin-top: 3rem;
+
+    background-color: #5585b5;
+  }
+  .img-aboutme {
+    float: right;
+  }
+  .img-skill {
+    float: left;
+  }
+  .img-paragraph {
+    width: 250px;
+    height: 200px;
+    margin: 2rem;
+    position: relative;
+    top: -100px;
+  }
+  .paragraph-main {
+    margin: 2rem;
+  }
+  #skill {
+    background-color: beige;
+    height: 40vh;
+    padding: 2rem;
+    margin-top: 3rem;
+  }
+  footer {
+    background-color: rgb(194, 187, 187);
+    height: 45vh;
+    margin-top: 2rem;
+    padding: 2rem;
+  }
+  #contact {
+    position: relative;
+
+    left: 41rem;
+    bottom: 2rem;
+  }
+
+  .form-field {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -35px;
+  }
+  .form-field input {
+    width: 30%;
+    height: 1.5rem;
+    border-radius: 5px;
+    border: solid 0.5px black;
+  }
+
+  .name {
+    margin: 5px 0px 5px 73px;
+    padding-bottom: 5px;
+  }
+
+  .email {
+    margin: 5px 0px 5px 75px;
+    padding-bottom: 5px;
+  }
+
+  .message {
+    margin: 5px 0px 5px 46px;
+    padding-bottom: 60px;
+  }
+
+  .submit {
+    position: relative;
+    left: 41rem;
+    bottom: 1rem;
+    padding: 12px 80px 12px 80px;
+    border-radius: 10px;
+    border: 1px solid rgb(173, 117, 20);
+    background-color: rgb(173, 117, 20);
+  }
+
+  .copy-right {
+    position: relative;
+    left: 43rem;
+    top: 1.5rem;
+  }
+
+  #returnToTop {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    background-color: #5585b5;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+  }
+}
