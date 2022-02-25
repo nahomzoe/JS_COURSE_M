@@ -1,0 +1,302 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Raleway", sans-serif;
+}
+body {
+  font: black;
+}
+
+header,
+main,
+footer {
+  padding: 2rem;
+}
+html {
+  scroll-behavior: smooth;
+}
+a {
+  text-decoration: none;
+}
+nav ul li {
+  display: inline-block;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  background-image: linear-gradient(#5585b5 10%, white 90%);
+  height: 30vh;
+  z-index: 50;
+  padding: 2rem;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+a {
+  color: black;
+}
+.material-icons {
+  font-size: 1rem;
+}
+.humburger-menu {
+  display: none;
+}
+#mobileButton {
+  display: block;
+  background-color: transparent;
+  border: none;
+  color: white;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(white 10%, #5585b5 100%);
+  font-family: "Cormorant Garamond", serif;
+  height: 40vh;
+  font-size: 2rem;
+}
+
+h2 {
+  margin: 2rem;
+}
+
+.project-cards {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0px;
+}
+
+.box {
+  border: solid black 1px;
+  height: 230px;
+  width: 340px;
+  border-radius: 3px;
+  padding: 1rem;
+}
+
+.box:hover {
+  border: solid black 1px;
+  height: 340px;
+  width: 340px;
+  border-radius: 3px;
+  padding: 1rem;
+}
+
+.img-card {
+  width: 300px;
+  height: 302px;
+  padding-top: 0px;
+  padding-bottom: 110px;
+  padding-left: 20px;
+  padding-right: 20px;
+  position: absolute;
+  top: 10;
+}
+
+.box-mini {
+  border: solid black 1px;
+  position: absolute;
+  bottom: -220px;
+  height: 20px;
+  width: 300;
+  z-index: 5;
+  position: relative;
+}
+
+#aboutMe {
+  height: auto;
+  padding: 2rem;
+  margin-top: 3rem;
+
+  background-color: #5585b5;
+}
+
+.img-aboutme {
+  float: right;
+}
+
+.img-skill {
+  float: left;
+}
+
+.img-paragraph {
+  width: 250px;
+  height: 200px;
+  margin: 2rem;
+  position: relative;
+  top: -100px;
+}
+
+.paragraph-main {
+  text-align: justify;
+  margin: 2rem;
+}
+
+#skill {
+  background-color: beige;
+  height: auto;
+  padding: 2rem;
+  margin-top: 3rem;
+}
+
+footer {
+  background-color: rgb(194, 187, 187);
+  height: auto;
+  margin: 2rem;
+  padding: 2rem;
+}
+
+#contact {
+  text-align: center;
+  margin-bottom: 65px;
+}
+
+.form-field {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: -35px;
+}
+
+.form-field input {
+  width: 30%;
+  height: 2rem;
+  border-radius: 5px;
+  border: solid 0.5px black;
+}
+.form-field textarea {
+  width: 30%;
+  height: 108px;
+  border-radius: 5px;
+  border: solid 0.5px black;
+}
+
+.name {
+  margin: 5px 0px 5px 75px;
+  padding: 5px;
+}
+
+.email {
+  margin: 5px 0px 5px 75px;
+  padding: 5px;
+}
+
+.message {
+  margin: 5px 0px 5px 46px;
+  padding: 5px 5px 20px 5px;
+}
+
+.submit {
+  padding: 12px 80px 12px 80px;
+  border-radius: 10px;
+  border: 1px solid rgb(173, 117, 20);
+  background-color: rgb(173, 117, 20);
+}
+
+.copy-right {
+  text-align: center;
+}
+
+#returnToTop {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  background-color: #5585b5;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  display: none;
+}
+
+@media (max-width: 576px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-image: linear-gradient(#5585b5 10%, white 90%);
+    height: auto;
+    z-index: 50;
+    padding: 2rem;
+  }
+  h2 {
+    margin: 1rem;
+  }
+  #mobileButton {
+    display: block;
+    background-color: transparent;
+    border: none;
+    color: white;
+  }
+  nav ul {
+    display: none;
+  }
+
+  nav.tool-bar ul {
+    background-color: white;
+    position: absolute;
+    left: 0;
+    top: 85px;
+    width: 100%;
+    display: block;
+  }
+
+  nav.tool-bar ul li {
+    display: block;
+  }
+
+  nav.tool-bar a {
+    color: #333;
+    display: block;
+  }
+  .material-icons {
+    font-size: 1rem;
+    display: block;
+  }
+
+  .form-field {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -35px;
+    font-size: x-small;
+  }
+
+  .form-field input {
+    width: auto;
+    height: 2rem;
+    border-radius: 5px;
+    border: solid 0.5px black;
+  }
+  .form-field textarea {
+    width: 55%;
+    height: 108px;
+    border-radius: 5px;
+    border: solid 0.5px black;
+  }
+
+  header,
+  main,
+  footer {
+    padding: 1rem;
+  }
+  .humburger-menu {
+    display: block;
+  }
+}
