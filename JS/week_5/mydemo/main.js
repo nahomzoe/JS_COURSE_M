@@ -1,14 +1,16 @@
-let header = document.querySelector("header");
-let button = document.querySelector("#backToTop");
-let mobButton = document.querySelector("#mobileButton");
-let nav = document.querySelector("nav");
+const header = document.querySelector("header");
+const button = document.querySelector("#backToTop");
+const mobButton = document.querySelector("#mobileButton");
+const nav = document.querySelector("nav");
+
+let links = document.querySelectorAll("nav ul li a");
 
 window.onscroll = function () {
   scrollFunction();
 };
 
 const scrollFunction = () => {
-  if (document.body.scrollTop > 40 || document.documentElement.scrollTop > 40) {
+  if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
     header.classList.add("bg");
     button.style.display = "block";
   } else {
@@ -23,10 +25,15 @@ const getToTop = () => {
 };
 
 const mobMenu = () => {
-  if (nav.classList.contains("responsive")) {
-    nav.classList.remove("responsive");
+  for (let i = 0; i < links.length; i++) {
+    links[i].addEventListener("click", mobMenu);
+  }
+  if (nav.classList.contains("tool-bar")) {
+    nav.classList.remove("tool-bar");
+    document.body.style.overflow = "";
   } else {
-    nav.classList.add("responsive");
+    nav.classList.add("tool-bar");
+    document.body.style.overflow = "hidden";
   }
 };
 

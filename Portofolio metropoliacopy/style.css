@@ -73,9 +73,31 @@ h2 {
 }
 
 .project-cards {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 0px;
+  display: grid;
+  grid-template-areas: "box box1 box2";
+  grid-template-rows: 1fr;
+  gap: 1rem;
+}
+.card1 {
+  grid-area: box;
+
+  min-height: 100px;
+  padding: 1rem;
+  margin: auto;
+}
+.card2 {
+  grid-area: box1;
+
+  min-height: 100px;
+  padding: 1rem;
+  margin: auto;
+}
+.card3 {
+  grid-area: box2;
+
+  min-height: 100px;
+  padding: 1rem;
+  margin: auto;
 }
 
 .box {
@@ -222,7 +244,7 @@ footer {
   display: none;
 }
 
-@media (max-width: 576px) {
+@media screen and (max-width: 576px) {
   header {
     display: flex;
     justify-content: space-between;
@@ -267,6 +289,35 @@ footer {
   .material-icons {
     font-size: 1rem;
     display: block;
+  }
+
+  .project-cards {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-areas:
+      "box"
+      "box1"
+      "box2";
+    grid-template-rows: 1fr;
+    gap: 1rem;
+  }
+  .card1 {
+    grid-area: box;
+
+    min-height: 100px;
+    padding: 1rem;
+  }
+  .card2 {
+    grid-area: box1;
+
+    min-height: 100px;
+    padding: 1rem;
+  }
+  .card3 {
+    grid-area: box2;
+
+    min-height: 100px;
+    padding: 1rem;
   }
 
   .form-field {
