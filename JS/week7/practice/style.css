@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400&display=swap");
+:root {
+  --main-bg-color: thistle;
+  --primary-color: rgb(245, 245, 248);
+  --font: "Barlow", sans-serif;
+}
+
+body {
+  background-color: var(--main-bg-color);
+  font-family: var(--font);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.card {
+  background-color: var(--primary-color);
+  border-radius: 5px;
+  min-height: 100px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+  filter: saturate(0.5);
+}
+.card img:hover {
+  width: 100%;
+  border-radius: 5px;
+  filter: saturate(1);
+  cursor: pointer;
+}
+h1 {
+  text-shadow: 5px 5px 5px gray;
+}
