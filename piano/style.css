@@ -1,0 +1,80 @@
+body {
+  background: #1b1b1e;
+}
+
+.keyboard-container {
+  width: 960px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+.black-key {
+  width: 960px;
+  display: grid;
+  grid-template-columns: repeat(42, 1fr);
+  height: 66%;
+  justify-items: center;
+}
+
+.black-key div {
+  width: 45px;
+  background: #1b1b1e;
+  border: 1px solid #fff;
+  border-radius: 0 0 5px 5px;
+  cursor: pointer;
+  top: -299px;
+  position: relative;
+  z-index: 1;
+  border-top: none;
+}
+
+.black-key div.C {
+  grid-column: 6 / span 2;
+}
+
+.black-key div.D {
+  grid-column: 12 / span 3;
+}
+
+.black-key div.F {
+  grid-column: 25 / span 2;
+}
+
+.black-key div.G {
+  grid-column: 31 / span 2;
+}
+
+.black-key div.A {
+  grid-column: 37 / span 1;
+}
+
+.white-key {
+  width: 800px;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  height: 300px;
+}
+
+.white-key div {
+  background: #fff;
+  border: 1px solid #1b1b1e;
+  border-radius: 0 0 6px 6px;
+}
+
+div {
+  cursor: pointer;
+}
+
+div:active,
+div:focus {
+  border: 3px solid #4fb7ec;
+  outline: rgba(225, 225, 225, 0);
+}
+
+.white-key p {
+  font-size: 1.75em;
+  top: 100px;
+  position: relative;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.9), 0 -1px 1px rgba(0, 0, 0, 0.1);
+  color: #3dda21;
+}
